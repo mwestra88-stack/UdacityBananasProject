@@ -77,6 +77,7 @@ For this project, you will not need to install Unity - this is because we have a
 Then, place the file in the `p1_navigation/` folder in the course GitHub repository, and unzip (or decompress) the file.
 
 ## 3. Training the agent
+The agent can be trained, and the final resulting agent can be viewed by running all the code in `Navigation.ipynb`. The sections below explain the contents of this notebook.
 
 ### 3.1 Running the training script
 The agent is trained directly from a Jupyter Notebook using the following workflow.
