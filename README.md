@@ -31,10 +31,10 @@ The agent’s goal is to **maximize cumulative reward**.
 - **Size:** 4  
 - **Description:**  
   The agent is able to choose one of the following actions:
-  0: Move Forward
-  1: Move Backward
-  2: Turn Left
-  3: Turn Right
+  * 0: Move Forward
+  * 1: Move Backward
+  * 2: Turn Left
+  * 3: Turn Right
 
 ### Solving criterion
 The environment is considered **solved** when the agent achieves an **average score of ≥ 13** over **100 consecutive episodes**. The submitted agent consistently meets this criterion.
