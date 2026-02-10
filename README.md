@@ -1,8 +1,6 @@
 # Project 1: Navigation (Banana Environment)
 
-This project solves the **Unity Banana Navigation environment** using a **Deep Q-Network (DQN)** enhanced with **Double DQN** and **Dueling Network** architectures.  
-Experience replay is implemented using **uniform (randomized) replay**.  
-Although **Prioritized Experience Replay (PER)** is available in the codebase, it was **not used for the final solution** due to reduced stability and performance on this environment.
+This project solves the **Unity Banana Navigation environment** using a **Deep Q-Network (DQN)** enhanced with **Double DQN** and **Dueling Network** architectures. Experience replay is implemented using **uniform (randomized) replay**. Although **Prioritized Experience Replay (PER)** is available in the codebase, it was **not used for the final solution** due to reduced stability and performance on this environment.
 
 The environment is considered **solved in ~400 episodes**, meeting the Udacity project rubric requirements.
 
