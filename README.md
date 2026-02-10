@@ -1,6 +1,8 @@
 # Project 1: Navigation (Banana Environment)
 
-This project solves the **Unity Banana Navigation environment** using a **Deep Q-Network (DQN)** enhanced with **Double DQN** and **Dueling Network** architectures. Experience replay is implemented using **uniform (randomized) replay**. Although **Prioritized Experience Replay (PER)** is available in the codebase, it was **not used for the final solution** due to reduced stability and performance on this environment.
+This project solves the **Unity Banana Navigation environment** using a **Deep Q-Network (DQN)** enhanced with **Double DQN** and **Dueling Network** architectures.  
+Experience replay is implemented using **uniform (randomized) replay**.  
+Although **Prioritized Experience Replay (PER)** is available in the codebase, it was **not used for the final solution** due to reduced stability and performance on this environment.
 
 The environment is considered **solved in ~400 episodes**, meeting the Udacity project rubric requirements.
 
@@ -31,10 +33,10 @@ The agent’s goal is to **maximize cumulative reward**.
 - **Size:** 4  
 - **Description:**  
   The agent is able to choose one of the following actions:
-  * 0: Move Forward
-  * 1: Move Backward
-  * 2: Turn Left
-  * 3: Turn Right
+  0: Move Forward
+  1: Move Backward
+  2: Turn Left
+  3: Turn Right
 
 ### Solving criterion
 The environment is considered **solved** when the agent achieves an **average score of ≥ 13** over **100 consecutive episodes**. The submitted agent consistently meets this criterion.
